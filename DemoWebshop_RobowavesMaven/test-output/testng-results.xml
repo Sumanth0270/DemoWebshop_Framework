@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to Books page successfull]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to FictionEX page successfull]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Ablle_To_WishList is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Product are removed from Wishlist]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-27T11:49:31 IST" name="Default suite" finished-at="2024-07-27T11:49:43 IST" duration-ms="12242">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T11:49:31 IST" name="Default test" finished-at="2024-07-27T11:49:43 IST" duration-ms="12242">
+      <class name="testscripts.books.WishListTestCase">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:testscripts.books.WishListTestCase@368247b9]" started-at="2024-07-27T11:49:31 IST" name="launchTheBrowser" finished-at="2024-07-27T11:49:36 IST" duration-ms="4526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="perfornLogin()[pri:0, instance:testscripts.books.WishListTestCase@368247b9]" started-at="2024-07-27T11:49:36 IST" name="perfornLogin" finished-at="2024-07-27T11:49:37 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perfornLogin -->
+        <test-method signature="verify_User_Is_Able_To_WishList()[pri:0, instance:testscripts.books.WishListTestCase@368247b9]" started-at="2024-07-27T11:49:37 IST" name="verify_User_Is_Able_To_WishList" finished-at="2024-07-27T11:49:41 IST" duration-ms="4290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Books page successfull]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to FictionEX page successfull]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Ablle_To_WishList is Pass]]>
+            </line>
+            <line>
+              <![CDATA[Product are removed from Wishlist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_To_WishList -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:testscripts.books.WishListTestCase@368247b9]" started-at="2024-07-27T11:49:41 IST" name="performLogout" finished-at="2024-07-27T11:49:43 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testscripts.books.WishListTestCase@368247b9]" started-at="2024-07-27T11:49:43 IST" name="closeTheBrowser" finished-at="2024-07-27T11:49:43 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testscripts.books.WishListTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
